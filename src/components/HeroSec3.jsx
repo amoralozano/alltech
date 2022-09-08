@@ -2,15 +2,16 @@ import React from "react";
 
 const HeroSec3 = () => {
   return (
-    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[80px] mt-[100px]">
+    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[80px] mt-[15px]">
       <div className="w-[50%] h-[300px] bg-transparant mt-[50px]">
         <h1 className="text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 font-bold">
           Someone say Custom PC?
         </h1>
         <h1 className="text-lg text-white font-bold mt-[20px]">
-          Looking for that unbeatable softness of our cozy merino wool, with a
-          little more durability. Looking for that unbeatable softness of our
-          cozy merino wool, with a little more durability.
+          Looking for a custom PC? We got you covered with our huge range of
+          customization options, and prices, to match anyones need! We also
+          offer users the choice to build their own pc or we can build it for
+          them!
         </h1>
         <div className="mt-[30px]">
           <a

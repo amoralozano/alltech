@@ -18,12 +18,12 @@ const Home = () => {
     <div>
       <HomeHeader />
       <Banner2 />
-      <Favorites />
-      <HomeImage />
       <HeroSec />
-      <br />
-      <br />
       <Carusel1 />
+      <HomeImage />
+      <br />
+      <br />
+      <Favorites />
       <Banner3 />
       <HeroSec2 />
       <Carusel2 />

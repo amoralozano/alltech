@@ -2,15 +2,15 @@ import React from "react";
 
 const HeroSec = () => {
   return (
-    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[120px] mt-[-40px]">
+    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[120px] ">
       <div className="w-[50%] h-[300px] bg-transparant mt-[50px]">
-        <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600">
+        <h1 className="text-[40px] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600">
           Meet Our Favorite Game Collection
         </h1>
         <h1 className="text-lg font-bold mt-[20px] text-white">
-          Looking for that unbeatable softness of our cozy merino wool, with a
-          little more durability? Maybe a little something you can dress up, or
-          dress down? Great, you’re in luck.
+          Trying to find the best game collection for you? We got you covered!
+          from the best games and reviews from our community to help you chose
+          the best game or games for you!
         </h1>
         <div className=" mt-[50px]">
           <a

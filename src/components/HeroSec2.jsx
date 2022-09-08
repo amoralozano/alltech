@@ -2,14 +2,14 @@ import React from "react";
 
 const HeroSec2 = () => {
   return (
-    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[100px] mt-[-50px]">
+    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[100px] mt-[-70px]">
       <div className="w-[50%] h-[300px] bg-transparant mt-[50px]">
         <h1 className="text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 font-bold">
           Enhance your Gaming Experience
         </h1>
         <h1 className="text-lg text-white font-bold mt-[20px]">
-          Looking for that unbeatable softness of our cozy merino wool, with a
-          little more durability.
+          Looking for something to accompany your gaming experience? We have you
+          covered with our huge range of accesories and more!
         </h1>
         <div className=" mt-[30px]">
           <a

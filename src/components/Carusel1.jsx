@@ -15,8 +15,8 @@ import assets from "../assets";
 export default function Carusel1() {
   return (
     <div className="bg-black">
-      <div className="container w-full mx-auto mb-[40px] mt-[-50px] bg-black">
-        <h1 className="text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-purple-200 to-purple-500 font-extrabold text-left">
+      <div className="container w-full mx-auto mb-[10px] mt-[-50px] bg-black">
+        <h1 className="text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600 font-extrabold text-left">
           New Favorites Of 2022
         </h1>
         <div className="flex items-center justify-center w-full h-full py-24 sm:py-8">
