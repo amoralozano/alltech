@@ -1,10 +1,13 @@
 import React from "react";
+import assets from "../assets";
+
+// accssries pic for mac credit: the every day dad on youtube!
 
 const Favorites = () => {
   return (
-    <div className="bg-black w-full h-[800px] mb-[-30px] mt-[50px]">
+    <div className="bg-black w-full h-[800px] mb-[-30px] mt-[10px]">
       <br />
-      <h1 className="text-[36px] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-200 to-purple-500 mb-[10px]">
+      <h1 className="text-[36px] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 mb-[10px]">
         Our Favorites
       </h1>
       <br />
@@ -16,7 +19,7 @@ const Favorites = () => {
         <li class="nav-item flex-auto text-center" role="presentation">
           <a
             href="#tabs-homeFill"
-            className="text-purple-500 hover:border-b-purple-700 border-b-purple-300  w-full block text-lg font-extrabold leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 focus:border-b-purple-700"
+            className="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-400 hover:border-b-pink-500 border-b-purple-300  w-full block text-xl font-extrabold leading-tight uppercase border-x-0 border-t-0 border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500"
             id="tabs-home-tabFill"
             data-bs-toggle="pill"
             data-bs-target="#tabs-homeFill"
@@ -24,13 +27,13 @@ const Favorites = () => {
             aria-controls="tabs-homeFill"
             aria-selected="true"
           >
-            For Working
+            PC
           </a>
         </li>
         <li class="nav-item flex-auto text-center" role="presentation">
           <a
             href="#tabs-profileFill"
-            className=" text-purple-500 hover:border-b-purple-700 border-b-purple-300 w-full block text-lg font-extrabold leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 focus:border-b-purple-700 "
+            className=" text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-400 hover:border-b-pink-500 border-b-purple-300 w-full block text-xl font-extrabold leading-tight uppercase border-x-0 border-t-0 border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500 "
             id="tabs-profile-tabFill"
             data-bs-toggle="pill"
             data-bs-target="#tabs-profileFill"
@@ -38,13 +41,13 @@ const Favorites = () => {
             aria-controls="tabs-profileFill"
             aria-selected="false"
           >
-            For Every Day Use
+            MAC
           </a>
         </li>
         <li class="nav-item flex-auto text-center" role="presentation">
           <a
             href="#tabs-messagesFill"
-            class="text-purple-500 hover:border-b-purple-700 border-b-purple-300 w-full block text-lg font-extrabold leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 focus:border-b-purple-700"
+            class="text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-400 hover:border-b-pink-500 border-b-purple-300 w-full block text-xl font-extrabold leading-tight uppercase border-x-0 border-t-0 border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500"
             id="tabs-messages-tabFill"
             data-bs-toggle="pill"
             data-bs-target="#tabs-messagesFill"
@@ -52,7 +55,7 @@ const Favorites = () => {
             aria-controls="tabs-messagesFill"
             aria-selected="false"
           >
-            For Winter
+            CONSOLE
           </a>
         </li>
       </ul>
@@ -65,59 +68,61 @@ const Favorites = () => {
         >
           <div className=" flex-col justify-center items-center ml-[120px] w-[80%] h-[250px]">
             <div class="flex justify-center">
-              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm h-[500px]">
+              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm w-[400px] h-[500px]">
                 <a href="#!">
                   <img
-                    class="rounded-t-lg h-[80%]"
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    class="object-fill object-center w-full h-[420px] rounded-t-md"
+                    src={assets.monitor}
                     alt=""
                   />
                 </a>
-                <div class="p-4">
-                  <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                    Card title
+                <div class="p-4 flex-col justify-center items-center">
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                    PC Monitors
                   </h5>
-                  <p class="text-gray-700 text-md font-bold text-left mb-[10px]">
-                    Lighter, faster, Hotter, Beter
+                  {/* to add a line between both items add a border-top or bt-black or purple. */}
+                  <p class="text-black text-md font-bold text-center">
+                    Choose from brands like LG & others
                   </p>
                 </div>
               </div>
 
-              <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm">
+              <div class="flex justify-center ml-[30px] h-[500px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm w-[400px] h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[80%]"
-                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="object-fill object-center w-full h-[420px] rounded-t-md"
+                      src={assets.pccase}
                       alt=""
                     />
                   </a>
-                  <div class="p-4">
-                    <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                      Card title
+                  <div class="p-4 flex-col justify-center items-center">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                      Gaming Chairs
                     </h5>
-                    <p class="text-gray-700 text-md text-left mb-[10px]">
-                      Lighter, faster, Hotter, Beter
+                    {/* to add a line between both items add a border-top or bt-black or purple. */}
+                    <p class="text-black text-md font-bold text-center">
+                      Choose gaming chairs from S-Racer and others
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm">
+              <div class="flex justify-center ml-[30px] h-[500px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm w-[400px] h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[80%]"
-                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="object-fill object-center w-full h-[420px] rounded-t-md"
+                      src={assets.pcsetup}
                       alt=""
                     />
                   </a>
-                  <div class="p-4">
-                    {/* changing the padding to see if it better aligns the model */}
-                    <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                      Card title
+                  <div class="p-4 flex-col justify-center items-center">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                      Pre Built Custom PCS
                     </h5>
-                    <p class="text-gray-700 text-md text-left mb-[10px]">
-                      Lighter, faster, Hotter, Beter
+                    {/* to add a line between both items add a border-top or bt-black or purple. */}
+                    <p class="text-black text-md font-bold text-center">
+                      Choose what you want for all your gaming needs
                     </p>
                   </div>
                 </div>
@@ -134,59 +139,58 @@ const Favorites = () => {
         >
           <div className=" flex-col justify-center items-center ml-[120px] w-[80%]  h-[250px]">
             <div class="flex justify-center">
-              <div class="rounded-sm shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm h-[500px]">
+              <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm h-[500px]">
                 <a href="#!">
                   <img
-                    class="rounded-t-lg h-[80%]"
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    class="rounded-t-lg h-[420px] w-[400px] bg-white"
+                    src={assets.macmonitor}
                     alt=""
                   />
                 </a>
                 <div class="p-4">
-                  <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                    Card title
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                    mac monitors
                   </h5>
-                  <p class="text-gray-700 text-md text-left mb-[10px]">
+                  <p class="text-black text-md font-bold mt-[-8px] text-center">
                     Lighter, faster, Hotter, Beter
                   </p>
                 </div>
               </div>
 
               <div class="flex justify-center ml-[30px]">
-                <div class="rounded-sm shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[80%]"
-                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="rounded-t-lg h-[420px] w-[400px]"
+                      src={assets.macbook}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                      Card title
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                      Airpods Max
                     </h5>
-                    <p class="text-gray-700 text-md text-left mb-[10px]">
-                      Lighter, faster, Hotter, Beter
+                    <p class="text-black text-md font-bold mt-[-8px] text-center mb-[10px]">
+                      Choose between Airpods Max or other headphones
                     </p>
                   </div>
                 </div>
               </div>
               <div class="flex justify-center ml-[30px]">
-                <div class="rounded-sm shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[80%]"
-                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="rounded-t-lg h-[420px] w-[400px]"
+                      src={assets.macaccesories}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    {/* changing the padding to see if it better aligns the model */}
-                    <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                      Card title
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                      magic Keyboard
                     </h5>
-                    <p class="text-gray-700 text-md text-left mb-[10px]">
-                      Lighter, faster, Hotter, Beter
+                    <p class="text-black text-md font-bold mt-[-8px] text-center mb-[10px]">
+                      Chose from many options, colors
                     </p>
                   </div>
                 </div>
@@ -205,56 +209,55 @@ const Favorites = () => {
               <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm h-[500px]">
                 <a href="#!">
                   <img
-                    class="rounded-t-lg h-[80%]"
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                    class="rounded-t-lg h-[420px] w-[500px]"
+                    src={assets.ps5}
                     alt=""
                   />
                 </a>
                 <div class="p-4">
-                  <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                    Card title
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900  text-xl font-extrabold text-center mt-[-10px]">
+                    Playstation 5
                   </h5>
-                  <p class="text-gray-700 text-md text-left mb-[10px]">
-                    Lighter, faster, Hotter, Beter
+                  <p class="text-black text-md font-bold text-center mb-[10px]">
+                    Shop from the PS5, PS4, and More
                   </p>
                 </div>
               </div>
 
               <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[80%]"
-                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="rounded-t-lg h-[420px] w-[500px]"
+                      src={assets.xbox}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                      Card title
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900  text-xl font-extrabold text-center mt-[-10px]">
+                      Xbox Series X / S
                     </h5>
-                    <p class="text-gray-700 text-md text-left mb-[10px]">
-                      Lighter, faster, Hotter, Beter
+                    <p class="text-black font-bold text-md text-center mb-[10px]">
+                      Shop from the Xbox Series X / S and More
                     </p>
                   </div>
                 </div>
               </div>
               <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500  max-w-sm">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[80%]"
-                      src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+                      class="rounded-t-lg h-[420px] w-[500px]"
+                      src={assets.ninswitch}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    {/* changing the padding to see if it better aligns the model */}
-                    <h5 class="text-gray-900 text-xl font-extrabold text-left mb-2">
-                      Card title
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                      Nintendo Switch OLED
                     </h5>
-                    <p class="text-gray-700 text-md text-left mb-[10px]">
-                      Lighter, faster, Hotter, Beter
+                    <p class="text-black font-bold text-md text-center mb-[10px]">
+                      Shop from the Switch OLED and More
                     </p>
                   </div>
                 </div>

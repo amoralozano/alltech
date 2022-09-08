@@ -7,12 +7,12 @@ const HomeHeader = () => {
     <div className="bg-blend-darken">
       <div className=" bg-hero2 bg-cover w-full h-[700px] flex flex-col justify-center items-center">
         <div className="w-[50%] h-[400px] mt-[230px] ">
-          <h1 className="text-[47px] mt-[20px] font-black text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-400">
-            Color Cha-Cha Changes
+          <h1 className="text-[46px] mt-[20px] font-black text-transparent bg-clip-text bg-gradient-to-br from-purple-500 to-pink-400">
+            Whats Your Inner Technology?
           </h1>
-          <h1 className="mt-[10px] text-transparent bg-clip-text bg-gradient-to-br from-purple-200 to-purple-500 font-extrabold">
+          <h1 className="mt-[10px] text-lg text-transparent bg-clip-text bg-gradient-to-br from-purple-200 to-purple-500 font-extrabold">
             {" "}
-            Choices so cool that will want to buy more than one.
+            Choices for all gamers, for any gamer needs!
           </h1>
           <div className=" mt-[190px]">
             <a

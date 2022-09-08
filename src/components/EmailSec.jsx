@@ -5,11 +5,11 @@ const EmailSec = () => {
     <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[50px]">
       <div className="w-[50%] h-[300px] bg-transparant mt-[50px]">
         <h1 className="text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 font-bold">
-          Big News For Little Feet
+          Get the latest drops and collection alerts
         </h1>
         <h1 className="text-lg font-bold text-white mt-[20px]">
-          Looking for that unbeatable softness of our cozy merino wool, with a
-          little more durability.
+          Sign up to get notified via email when our new collections and drops
+          take place!
         </h1>
         <div className="flex justify-center mt-[30px]">
           <input
@@ -23,7 +23,7 @@ const EmailSec = () => {
             href="https://greaternews.netlify.app"
             class="dark:text-blue-700 dark:bg-white dark:border-2 hover:bg-blue-500 dark:border-blue-700 dark:hover:bg-blue-500 dark:hover:text-white text-black bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-bold text-xl ml-[15px] py-2.5 text-center md:mr-5 shadow-lg w-[150px] h-[50px]"
           >
-            Shop Now
+            Sign Up
           </a>
         </div>
       </div>

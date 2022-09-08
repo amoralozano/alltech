@@ -1,8 +1,9 @@
 import React from "react";
+import assets from "../assets";
 
 const ImageCol = () => {
   return (
-    <div className="bg-gradient-to-r from-pink-400 via-purple-500 to-purple-600 w-full h-[300px]">
+    <div className="bg-gradient-to-r from-pink-400 via-purple-500 to-purple-600 w-full h-[300px] mt-[150px]">
       <section class="overflow-hidden text-gray-700 ">
         <div class="container py-2 mx-auto">
           <div class="flex flex-wrap -m-1 md:-m-2">
@@ -11,7 +12,7 @@ const ImageCol = () => {
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                  src={assets.imagecol2}
                 />
               </div>
             </div>
@@ -20,7 +21,7 @@ const ImageCol = () => {
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                  src={assets.imagecol1}
                 />
               </div>
             </div>
@@ -29,7 +30,7 @@ const ImageCol = () => {
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                  src={assets.imagecol3}
                 />
               </div>
             </div>
@@ -38,7 +39,7 @@ const ImageCol = () => {
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                  src={assets.imagecol4}
                 />
               </div>
             </div>
@@ -47,7 +48,7 @@ const ImageCol = () => {
                 <img
                   alt="gallery"
                   class="block object-cover object-center w-full h-full rounded-lg"
-                  src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(76).webp"
+                  src={assets.imagecol5}
                 />
               </div>
             </div>
