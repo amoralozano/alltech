@@ -41,6 +41,7 @@ import imagecol5 from "./imagecol5.png";
 import backarrow from "./backarrow.png";
 import arrow from "./arrow.png";
 import whitearrow from "./whitearrow.png";
+import background3 from "./background3.png";
 
 export default {
   image1,
@@ -86,4 +87,5 @@ export default {
   backarrow,
   arrow,
   whitearrow,
+  background3,
 };

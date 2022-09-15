@@ -14,12 +14,12 @@ import assets from "../assets";
 
 export default function Carusel1() {
   return (
-    <div className="bg-black">
-      <div className="container w-full mx-auto mb-[10px] mt-[-50px] bg-black">
-        <h1 className="text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600 font-extrabold text-left">
+    <div className=" flex bg-black">
+      <div className="container w-full mx-auto mb-[10px] md:mt-[-50px] bg-black">
+        <h1 className="text-[35px] text-center  md:ml-0 text-transparent bg-clip-text bg-gradient-to-br from-purple-400 to-pink-600 font-extrabold md:text-left">
           New Favorites Of 2022
         </h1>
-        <div className="flex items-center justify-center w-full h-full py-24 sm:py-8">
+        <div className="flex items-center justify-center w-full h-full">
           {/* Carousel for desktop and large size devices */}
           <CarouselProvider
             className="lg:block hidden"
@@ -259,18 +259,18 @@ export default function Carusel1() {
                     <Slide index={0}>
                       <div className="flex flex-shrink-0 relative w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/fDngH9G/carosel-1.png"
-                          alt="black chair and white table"
-                          className="object-cover object-center w-full"
+                          src={assets.car1img1}
+                          alt="sitting area"
+                          className="object-fill object-center w-full h-[360px] rounded-t-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 1
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            The Last of Us Part I
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
@@ -517,7 +517,7 @@ export default function Carusel1() {
             className="block md:hidden "
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={12}
+            totalSlides={7}
             visibleSlides={1}
             step={1}
             infinite={true}
@@ -552,233 +552,158 @@ export default function Carusel1() {
                     className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
                   >
                     <Slide index={0}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/fDngH9G/carosel-1.png"
-                          alt="black chair and white table"
-                          className="object-cover object-center w-full"
+                          src={assets.car1img1}
+                          alt="sitting area"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 1
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            The Last of Us Part I
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
                     </Slide>
                     <Slide index={1}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
+                        {/* why does this one have ml and the other oe doesnt and its the second one?? */}
                         <img
-                          src="https://i.ibb.co/DWrGxX6/carosel-2.png"
+                          src={assets.car1img2}
                           alt="sitting area"
-                          className="object-cover object-center w-full"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md rounded-b-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            Madden NFL 22
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
                     </Slide>
                     <Slide index={2}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/tCfVky2/carosel-3.png"
+                          src={assets.car1img3}
                           alt="sitting area"
-                          className="object-cover object-center w-full"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md rounded-b-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            The Last of Us Part I
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
                     </Slide>
                     <Slide index={3}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/rFsGfr5/carosel-4.png"
+                          src={assets.car1img4}
                           alt="sitting area"
-                          className="object-cover object-center w-full"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md rounded-b-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            The Last of Us Part I
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
                     </Slide>
                     <Slide index={4}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/fDngH9G/carosel-1.png"
-                          alt="black chair and white table"
-                          className="object-cover object-center w-full"
+                          src={assets.car1img5}
+                          alt="sitting area"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md rounded-b-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            The Last of Us Part I
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
                     </Slide>
                     <Slide index={5}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/DWrGxX6/carosel-2.png"
+                          src={assets.car1img6}
                           alt="sitting area"
-                          className="object-cover object-center w-full"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md rounded-b-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            Test
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
                     </Slide>
                     <Slide index={6}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/tCfVky2/carosel-3.png"
+                          src={assets.car1img7}
                           alt="sitting area"
-                          className="object-cover object-center w-full"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md rounded-b-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            The Last of Us Part I
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
                     </Slide>
-                    <Slide index={7}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    {/* <Slide index={7}>
+                      <div className="flex ml-[20px] md:mt-[-80px] flex-shrink-0 relative w-[90%] md:w-full sm:w-auto">
                         <img
-                          src="https://i.ibb.co/rFsGfr5/carosel-4.png"
+                          src={assets.car1img8}
                           alt="sitting area"
-                          className="object-cover object-center w-full"
+                          className=" flex items-center jusitfy-center object-fill object-center w-full h-[550px] md:h-[360px] rounded-t-md rounded-b-md"
                         />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
+                        <div className="bg-gradient-to-r from-pink-400 via-purple-400 to-purple-500 absolute inset-x-0 bottom-0 w-full h-[60px] p-6 rounded-b-md">
+                          <h3 className="text-xl text-left lg:text-xl font-bold leading-5 lg:leading-6 text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 mt-[-20px] ml-[-10px]">
+                            The Last of Us Part I
+                          </h3>
+                          <div className="flex h-full items-end mt-[15px]">
+                            <h2 className="lg:text-md font-semibold leading-4 text-left lg:leading-5 text-black ml-[-10px]">
+                              PS5
+                            </h2>
                           </div>
                         </div>
                       </div>
-                    </Slide>
-                    <Slide index={8}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <img
-                          src="https://i.ibb.co/fDngH9G/carosel-1.png"
-                          alt="black chair and white table"
-                          className="object-cover object-center w-full"
-                        />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="texlg:t-xl le leading-4 text-basealg:ding-tight text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
-                          </div>
-                        </div>
-                      </div>
-                    </Slide>
-                    <Slide index={9}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <img
-                          src="https://i.ibb.co/DWrGxX6/carosel-2.png"
-                          alt="sitting area"
-                          className="object-cover object-center w-full"
-                        />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
-                          </div>
-                        </div>
-                      </div>
-                    </Slide>
-                    <Slide index={10}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <img
-                          src="https://i.ibb.co/tCfVky2/carosel-3.png"
-                          alt="sitting area"
-                          className="object-cover object-center w-full"
-                        />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
-                          </div>
-                        </div>
-                      </div>
-                    </Slide>
-                    <Slide index={11}>
-                      <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                        <img
-                          src="https://i.ibb.co/rFsGfr5/carosel-4.png"
-                          alt="sitting area"
-                          className="object-cover object-center w-full"
-                        />
-                        <div className="bg-gray-800 bg-opacity-30 absolute w-full h-full p-6">
-                          <h2 className="lg:text-xl leading-4 text-base lg:leading-5 text-white">
-                            Catalog 2
-                          </h2>
-                          <div className="flex h-full items-end pb-6">
-                            <h3 className="text-xl lg:text-2xl font-semibold leading-5 lg:leading-6 text-white">
-                              Minimal Interior
-                            </h3>
-                          </div>
-                        </div>
-                      </div>
-                    </Slide>
+                    </Slide> */}
                   </div>
                 </Slider>
               </div>

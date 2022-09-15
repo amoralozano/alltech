@@ -4,7 +4,7 @@ import { useState } from "react";
 const NavBar = () => {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full h-[55px] bg-black border-black sm:px-4 py-2.5 dark:bg-white">
+    <nav className="w-full md:h-[55px] md:mt-0 bg-black border-black sm:px-4 md:py-2.5 dark:bg-white">
       <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <ul className="items-center justify-center mb-[20px] invisible lg:visible space-y-8 md:flex md:space-x-6 md:space-y-0">
           <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] ml-[-80px] border-gray-100 dark:text-black">
@@ -21,12 +21,12 @@ const NavBar = () => {
           </li>
         </ul>
         <div>
-          <div className="flex items-center justify-between py-3  md:py-5 md:block">
+          <div className="flex items-center justify-between mt-[-190px] md:mt-0 md:py-5 md:block">
             <div class=" justify-center mb-6 md:mb-0">
-              <div className="mt-[-20px]">
+              <div className="md:mt-[-20px]">
                 <a
                   href="/"
-                  className="flex items-center text-3xl text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-700 font-Pacifico font-extrabold "
+                  className="flex items-center text-3xl md:mt-0 text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-700 font-Pacifico font-extrabold "
                 >
                   AllTech
                 </a>
@@ -79,19 +79,19 @@ const NavBar = () => {
           >
             <ul className="items-center justify-center mb-[20px] space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] border-gray-100 dark:text-black">
+                <a href="/">COLLECT</a>
+              </li>
+              <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] border-gray-100 dark:text-black">
                 <a href="/">GAMES</a>
               </li>
               <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] border-gray-100 dark:text-black">
-                <a href="/projects">ACCESORIES</a>
+                <a href="/">ACCESSORIES</a>
               </li>
-              <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px]  border-gray-100 dark:text-black">
-                <a href="/mystacks">FAVS</a>
+              <li className="text-transparent bg-clip-text md:hidden bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] border-gray-100 dark:text-black">
+                <a href="/">VR</a>
               </li>
-              <li className="text-purple-300 md:hidden font-bold text-lg border-gray-100 dark:text-black">
-                <a href="/projects">test1</a>
-              </li>
-              <li className="text-purple-300 font-bold md:hidden text-lg border-gray-100 dark:text-black">
-                <a href="/mystacks">test2</a>
+              <li className="text-transparent bg-clip-text md:hidden bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] border-gray-100 dark:text-black">
+                <a href="/">MAC</a>
               </li>
             </ul>
           </div>

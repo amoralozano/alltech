@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class="bg-black dark:bg-gray-900">
+    <footer class="bg-black dark:bg-gray-900 mt-[-30px]">
       <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
         <div>
-          <h2 class="mb-6 text-md font-bold text-purple-500 uppercase dark:text-gray-400">
+          <h2 class="mb-6 text-[16px] md:text-md font-bold text-purple-500 uppercase dark:text-gray-400">
             Company
           </h2>
           <ul class="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 dark:text-gray-400">
@@ -32,7 +32,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2 class="mb-6 text-md font-bold text-purple-500 uppercase dark:text-gray-400">
+          <h2 class="mb-6 text-[16px] md:text-md font-bold text-purple-500 uppercase dark:text-gray-400">
             Help center
           </h2>
           <ul class="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 dark:text-gray-400">
@@ -59,7 +59,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2 class="mb-6 text-md font-bold text-purple-500 uppercase dark:text-gray-400">
+          <h2 class="mb-6 text-[16px] md:text-md font-bold text-purple-500 uppercase dark:text-gray-400">
             Legal
           </h2>
           <ul class="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 dark:text-gray-400">
@@ -81,7 +81,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h2 class="mb-6 text-md font-bold text-purple-500 uppercase dark:text-gray-400">
+          <h2 class="mb-6 text-[16px] md:text-md font-bold text-purple-500 uppercase dark:text-gray-400">
             Download
           </h2>
           <ul class="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 dark:text-gray-400">
@@ -109,11 +109,11 @@ const Footer = () => {
         </div>
       </div>
       <div class="py-6 px-4 bg-gradient-to-r from-purple-400 via-purple-600 to-pink-400 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-black dark:text-gray-300 sm:text-center">
+        <span class=" text-sm text-black dark:text-gray-300 sm:text-center">
           © 2022 <a href="https://flowbite.com/">AllTech™</a>. All Rights
           Reserved.
         </span>
-        <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+        <div class="flex mt-4 ml-[100px] space-x-6 sm:justify-center md:mt-0">
           <a
             href="#"
             class="text-black hover:text-gray-900 dark:hover:text-white"

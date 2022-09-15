@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroSec3 = () => {
   return (
-    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[80px] mt-[15px]">
-      <div className="w-[50%] h-[300px] bg-transparant mt-[50px]">
+    <div className="bg-black w-full h-[300px] flex flex-col justify-center items-center mb-[80px] mt-[40px] md:mt-[15px]">
+      <div className="w-[90%] md:w-[50%] h-[300px] bg-transparant mt-[50px]">
         <h1 className="text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 font-bold">
           Someone say Custom PC?
         </h1>

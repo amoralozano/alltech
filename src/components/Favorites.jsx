@@ -5,7 +5,7 @@ import assets from "../assets";
 
 const Favorites = () => {
   return (
-    <div className="bg-black w-full h-[800px] mb-[-80px] mt-[-80px]">
+    <div className="bg-black w-full h-[800px] mb-[-180px] md:mb-[-80px] mt-[-80px]">
       <br />
       <h1 className="text-[38px] font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-600 mb-[20px]">
         Our Favorites
@@ -19,7 +19,7 @@ const Favorites = () => {
         <li class="nav-item flex-auto text-center" role="presentation">
           <a
             href="#tabs-homeFill"
-            className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-pink-400 hover:border-b-pink-500 border-b-purple-300  w-full block text-xl font-black leading-tight uppercase border-x-0 border-t-0 border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500"
+            className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-pink-400 hover:border-b-pink-500 border-b-purple-300  w-full block text-lg md:text-xl font-black leading-tight uppercase border-x-0 border-t-0 border-b-2 md:border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500"
             id="tabs-home-tabFill"
             data-bs-toggle="pill"
             data-bs-target="#tabs-homeFill"
@@ -33,7 +33,7 @@ const Favorites = () => {
         <li class="nav-item flex-auto text-center" role="presentation">
           <a
             href="#tabs-profileFill"
-            className=" text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-pink-400 hover:border-b-pink-500 border-b-purple-300 w-full block text-xl font-black leading-tight uppercase border-x-0 border-t-0 border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500 "
+            className=" text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-pink-400 hover:border-b-pink-500 border-b-purple-300 w-full block text-lg md:text-xl font-black leading-tight uppercase border-x-0 border-t-0 border-b-2 md:border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500 "
             id="tabs-profile-tabFill"
             data-bs-toggle="pill"
             data-bs-target="#tabs-profileFill"
@@ -47,7 +47,7 @@ const Favorites = () => {
         <li class="nav-item flex-auto text-center" role="presentation">
           <a
             href="#tabs-messagesFill"
-            class="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-pink-400 hover:border-b-pink-500 border-b-purple-300 w-full block text-xl font-black leading-tight uppercase border-x-0 border-t-0 border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500"
+            class="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-pink-400 hover:border-b-pink-500 border-b-purple-300 w-full block text-lg md:text-xl font-black leading-tight uppercase border-x-0 border-t-0 border-b-2 md:border-b-4 border-transparent px-6 py-3 my-2 focus:border-b-pink-500"
             id="tabs-messages-tabFill"
             data-bs-toggle="pill"
             data-bs-target="#tabs-messagesFill"
@@ -66,18 +66,18 @@ const Favorites = () => {
           role="tabpanel"
           aria-labelledby="tabs-home-tabFill"
         >
-          <div className=" flex-col justify-center items-center ml-[120px] w-[80%] h-[250px]">
+          <div className=" md:flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
             <div class="flex justify-center">
-              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm h-[500px]">
+              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                 <a href="#!">
                   <img
-                    class="rounded-t-lg h-[420px] w-[500px]"
+                    class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
                     src={assets.ps5}
                     alt=""
                   />
                 </a>
                 <div class="p-4">
-                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900  text-xl font-extrabold text-center mt-[-10px]">
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-md md:text-xl font-extrabold text-center mt-[-13px] md:mt-[-10px]">
                     Playstation 5
                   </h5>
                   <p class="text-black text-md font-bold text-center mb-[10px]">
@@ -86,17 +86,17 @@ const Favorites = () => {
                 </div>
               </div>
 
-              <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[420px] w-[500px]"
+                      class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
                       src={assets.xbox}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900  text-xl font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mt-[-10px]">
                       Xbox Series X / S
                     </h5>
                     <p class="text-black font-bold text-md text-center mb-[10px]">
@@ -105,17 +105,17 @@ const Favorites = () => {
                   </div>
                 </div>
               </div>
-              <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[420px] w-[500px]"
+                      class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
                       src={assets.ninswitch}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mt-[-10px]">
                       Nintendo Switch OLED
                     </h5>
                     <p class="text-black font-bold text-md text-center mb-[10px]">
@@ -134,18 +134,18 @@ const Favorites = () => {
           role="tabpanel"
           aria-labelledby="tabs-profile-tabFill"
         >
-          <div className=" flex-col justify-center items-center ml-[120px] w-[80%]  h-[250px]">
+          <div className=" flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
             <div class="flex justify-center">
-              <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm h-[500px]">
+              <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                 <a href="#!">
                   <img
-                    class="rounded-t-lg h-[420px] w-[400px] bg-white"
+                    class="rounded-t-lg  h-[200px] md:h-[420px] w-[500px] bg-white"
                     src={assets.macmonitor}
                     alt=""
                   />
                 </a>
                 <div class="p-4">
-                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-md md:text-xl font-extrabold text-center mb-2 mt-[-10px]">
                     mac monitors
                   </h5>
                   <p class="text-black text-md font-bold mt-[-8px] text-center">
@@ -154,36 +154,36 @@ const Favorites = () => {
                 </div>
               </div>
 
-              <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[420px] w-[400px]"
+                      class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
                       src={assets.macbook}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mb-2 mt-[-10px]">
                       Airpods Max
                     </h5>
-                    <p class="text-black text-md font-bold mt-[-8px] text-center mb-[10px]">
+                    <p class=" invisible md:visible text-black text-md font-bold mt-[-8px] text-center mb-[10px]">
                       Choose between Airpods Max or other headphones
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="flex justify-center ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-sm h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
-                      class="rounded-t-lg h-[420px] w-[400px]"
+                      class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
                       src={assets.macaccesories}
                       alt=""
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mb-2 mt-[-10px]">
                       magic Keyboard
                     </h5>
                     <p class="text-black text-md font-bold mt-[-8px] text-center mb-[10px]">
@@ -201,38 +201,38 @@ const Favorites = () => {
           role="tabpanel"
           aria-labelledby="tabs-profile-tabFill"
         >
-          <div className=" flex-col justify-center items-center ml-[120px] w-[80%]  h-[250px]">
+          <div className=" flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
             <div class="flex justify-center">
-              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm w-[400px] h-[500px]">
+              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                 <a href="#!">
                   <img
-                    class="object-fill object-center w-full h-[420px] rounded-t-md"
+                    class="object-fill  h-[200px] md:h-[420px] w-[500px]"
                     src={assets.monitor}
                     alt=""
                   />
                 </a>
                 <div class="p-4 flex-col justify-center items-center">
-                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl  font-extrabold text-center mt-[-10px]">
                     PC Monitors
                   </h5>
                   {/* to add a line between both items add a border-top or bt-black or purple. */}
-                  <p class="text-black text-md font-bold text-center">
+                  <p class=" invisible md:visible text-black text-md font-bold text-center">
                     Choose from brands like LG & others
                   </p>
                 </div>
               </div>
 
-              <div class="flex justify-center ml-[30px] h-[500px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm w-[400px] h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
-                      class="object-fill object-center w-full h-[420px] rounded-t-md"
+                      class="object-fill h-[200px] md:h-[420px] w-[500px]"
                       src={assets.pccase}
                       alt=""
                     />
                   </a>
                   <div class="p-4 flex-col justify-center items-center">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mt-[-10px]">
                       Gaming Chairs
                     </h5>
                     {/* to add a line between both items add a border-top or bt-black or purple. */}
@@ -242,17 +242,17 @@ const Favorites = () => {
                   </div>
                 </div>
               </div>
-              <div class="flex justify-center ml-[30px] h-[500px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-sm w-[400px] h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
-                      class="object-fill object-center w-full h-[420px] rounded-t-md"
+                      class="object-fill h-[200px] md:h-[420px] w-[500px] rounded-t-md"
                       src={assets.pcsetup}
                       alt=""
                     />
                   </a>
                   <div class="p-4 flex-col justify-center items-center">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-xl font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl  font-extrabold text-center mt-[-10px]">
                       Pre Built Custom PCS
                     </h5>
                     {/* to add a line between both items add a border-top or bt-black or purple. */}
