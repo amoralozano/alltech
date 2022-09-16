@@ -8,16 +8,16 @@ const NavBar = () => {
       <div className="justify-between  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <ul className="items-center justify-center mb-[20px] invisible lg:visible space-y-8 md:flex md:space-x-6 md:space-y-0">
           <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] ml-[-80px] border-gray-100 dark:text-black">
-            <a href="/projects">CONSOLE</a>
+            <a href="#">CONSOLE</a>
           </li>
           <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] mr-[20px] border-gray-100 dark:text-black">
-            <a href="/mystacks">PC</a>
+            <a href="#">PC</a>
           </li>
           <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold block text-[15px] mr-[20px] border-gray-100 dark:text-black">
-            <a href="/projects">VR</a>
+            <a href="#">VR</a>
           </li>
           <li className="text-transparent bg-clip-text bg-gradient-to-br from-pink-300 to-purple-500 font-bold text-[15px] mr-[20px] border-gray-100 dark:text-black">
-            <a href="/mystacks">MAC</a>
+            <a href="#">MAC</a>
           </li>
         </ul>
         <div>

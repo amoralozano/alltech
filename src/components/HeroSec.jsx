@@ -14,13 +14,13 @@ const HeroSec = () => {
         </h1>
         <div className=" mt-[50px]">
           <a
-            href="https://greaternews.netlify.app"
+            href="#"
             class="dark:text-blue-700 dark:bg-white dark:border-2 hover:bg-blue-500 dark:border-blue-700 dark:hover:bg-blue-500 dark:hover:text-white text-black bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold md:font-bold text-xl md:text-2xl px-5 py-2.5 text-center mr-3 md:mr-5 shadow-lg rounded-md"
           >
             Shop Console
           </a>
           <a
-            href="https://greaternews.netlify.app"
+            href="#"
             class="dark:text-blue-700 dark:bg-white dark:border-2 hover:bg-blue-500 dark:border-blue-700 dark:hover:bg-blue-500 dark:hover:text-white text-black bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 font-semibold md:font-bold  text-xl md:text-2xl px-5 py-2.5 text-center mr-3 md:mr-5 shadow-lg rounded-md"
           >
             Shop PC

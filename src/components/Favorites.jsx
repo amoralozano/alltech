@@ -66,9 +66,9 @@ const Favorites = () => {
           role="tabpanel"
           aria-labelledby="tabs-home-tabFill"
         >
-          <div className=" md:flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
+          <div className=" md:flex-col justify-center items-center mt-[30px] md:mt-[25px] md:ml-[90px] lg:ml-[150px] w-[100%] md:w-[80%] h-[250px]">
             <div class="flex justify-center">
-              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
+              <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[500px] lg:max-w-[400px] h-[250px] md:h-[500px]">
                 <a href="#!">
                   <img
                     class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
@@ -77,17 +77,17 @@ const Favorites = () => {
                   />
                 </a>
                 <div class="p-4">
-                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-md md:text-xl font-extrabold text-center mt-[-13px] md:mt-[-10px]">
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-md md:text-[18px] lg:text-xl font-extrabold text-center mt-[-13px] md:mt-[-10px]">
                     Playstation 5
                   </h5>
-                  <p class="text-black text-md font-bold text-center mb-[10px]">
+                  <p class="text-black text-md md:text-sm lg:text-[16px] font-bold text-center mb-[10px]">
                     Shop from the PS5, PS4, and More
                   </p>
                 </div>
               </div>
 
-              <div class="flex justify-center ml-[5px] md:ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[10px] lg:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[500px] lg:max-w-[400px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
                       class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
@@ -96,17 +96,17 @@ const Favorites = () => {
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm md:text-[18px] lg:text-xl  md:text-xl font-extrabold text-center mt-[-10px]">
                       Xbox Series X / S
                     </h5>
-                    <p class="text-black font-bold text-md text-center mb-[10px]">
+                    <p class="text-black font-bold text-md md:text-sm lg:text-[16px] text-center mb-[10px]">
                       Shop from the Xbox Series X / S and More
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="flex justify-center ml-[5px] md:ml-[30px]">
-                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
+              <div class="flex justify-center ml-[5px] md:ml-[10px] lg:ml-[30px]">
+                <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[500px] lg:max-w-[400px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
                       class="rounded-t-lg h-[200px] md:h-[420px] w-[500px]"
@@ -115,10 +115,10 @@ const Favorites = () => {
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm md:text-[18px] lg:text-xl md:text-xl font-extrabold text-center mt-[-10px]">
                       Nintendo Switch OLED
                     </h5>
-                    <p class="text-black font-bold text-md text-center mb-[10px]">
+                    <p class="text-black font-bold text-md md:text-sm lg:text-[16px] text-center mb-[10px]">
                       Shop from the Switch OLED and More
                     </p>
                   </div>
@@ -134,7 +134,7 @@ const Favorites = () => {
           role="tabpanel"
           aria-labelledby="tabs-profile-tabFill"
         >
-          <div className=" flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
+          <div className=" flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[90px] lg:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
             <div class="flex justify-center">
               <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                 <a href="#!">
@@ -145,16 +145,16 @@ const Favorites = () => {
                   />
                 </a>
                 <div class="p-4">
-                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-md md:text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-md md:text-[17px] lg:text-xl font-extrabold text-center mb-2 mt-[-10px]">
                     mac monitors
                   </h5>
-                  <p class="text-black text-md font-bold mt-[-8px] text-center">
+                  <p class="text-black text-md md:text-sm lg:text-[16px] font-bold mt-[-8px] text-center">
                     Lighter, faster, Hotter, Beter
                   </p>
                 </div>
               </div>
 
-              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+              <div class="flex justify-center ml-[5px] md:ml-[10px] lg:ml-[30px]">
                 <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
@@ -164,16 +164,16 @@ const Favorites = () => {
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm md:text-[17px] lg:text-xl font-extrabold text-center mb-2 mt-[-10px]">
                       Airpods Max
                     </h5>
-                    <p class=" invisible md:visible text-black text-md font-bold mt-[-8px] text-center mb-[10px]">
+                    <p class=" invisible md:visible text-black text-md md:text-sm lg:text-[16px] font-bold mt-[-8px] text-center mb-[10px]">
                       Choose between Airpods Max or other headphones
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+              <div class="flex justify-center ml-[5px]  md:ml-[10px] lg:ml-[30px]">
                 <div class="rounded-lg shadow-lg bg-gradient-to-r from-purple-500 via-purple-400 to-pink-300 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
@@ -183,10 +183,10 @@ const Favorites = () => {
                     />
                   </a>
                   <div class="p-4">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mb-2 mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm md:text-[17px] lg:text-xl font-extrabold text-center mb-2 mt-[-10px]">
                       magic Keyboard
                     </h5>
-                    <p class="text-black text-md font-bold mt-[-8px] text-center mb-[10px]">
+                    <p class="text-black text-md md:text-sm lg:text-[16px] font-bold mt-[-8px] text-center mb-[10px]">
                       Chose from many options, colors
                     </p>
                   </div>
@@ -201,7 +201,7 @@ const Favorites = () => {
           role="tabpanel"
           aria-labelledby="tabs-profile-tabFill"
         >
-          <div className=" flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
+          <div className=" flex-col justify-center items-center mt-[30px] md:mt-[25px]  md:ml-[90px] lg:ml-[120px] w-[100%] md:w-[80%] h-[250px]">
             <div class="flex justify-center">
               <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                 <a href="#!">
@@ -212,17 +212,17 @@ const Favorites = () => {
                   />
                 </a>
                 <div class="p-4 flex-col justify-center items-center">
-                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl  font-extrabold text-center mt-[-10px]">
+                  <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm md:text-[17px] lg:text-xl  font-extrabold text-center mt-[-10px]">
                     PC Monitors
                   </h5>
                   {/* to add a line between both items add a border-top or bt-black or purple. */}
-                  <p class=" invisible md:visible text-black text-md font-bold text-center">
+                  <p class=" invisible md:visible text-black text-md md:text-sm lg:text-[16px] font-bold text-center">
                     Choose from brands like LG & others
                   </p>
                 </div>
               </div>
 
-              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+              <div class="flex justify-center ml-[5px] md:ml-[10px] lg:ml-[30px]">
                 <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
@@ -232,17 +232,17 @@ const Favorites = () => {
                     />
                   </a>
                   <div class="p-4 flex-col justify-center items-center">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm md:text-[17px] lg:text-xl font-extrabold text-center mt-[-10px]">
                       Gaming Chairs
                     </h5>
                     {/* to add a line between both items add a border-top or bt-black or purple. */}
-                    <p class="text-black text-md font-bold text-center">
+                    <p class="text-black text-md md:text-sm lg:text-[16px] font-bold text-center">
                       Choose gaming chairs from S-Racer and others
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="flex justify-center ml-[5px] md:ml-[30px]">
+              <div class="flex justify-center ml-[5px]  md:ml-[10px] lg:ml-[30px]">
                 <div class="rounded-lg shadow-lg bg-gradient-to-r from-pink-300 via-purple-400 to-purple-500 max-w-[400px] md:max-w-[350px] h-[250px] md:h-[500px]">
                   <a href="#!">
                     <img
@@ -252,11 +252,11 @@ const Favorites = () => {
                     />
                   </a>
                   <div class="p-4 flex-col justify-center items-center">
-                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm  md:text-xl  font-extrabold text-center mt-[-10px]">
+                    <h5 class="text-transparent bg-clip-text bg-gradient-to-br from-purple-700 to-gray-900 text-sm md:text-[17px] lg:text-xl font-extrabold text-center mt-[-10px]">
                       Pre Built Custom PCS
                     </h5>
                     {/* to add a line between both items add a border-top or bt-black or purple. */}
-                    <p class="text-black text-md font-bold text-center">
+                    <p class="text-black text-md md:text-sm lg:text-[16px] font-bold text-center">
                       Choose what you want for all your gaming needs
                     </p>
                   </div>

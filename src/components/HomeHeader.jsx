@@ -16,13 +16,13 @@ const HomeHeader = () => {
           </h1>
           <div className=" md:mt-[190px] mt-[70px]">
             <a
-              href="https://greaternews.netlify.app"
+              href="#"
               class="dark:text-blue-700 dark:bg-white dark:border-2 hover:bg-blue-500 dark:border-blue-700 dark:hover:bg-blue-500 dark:hover:text-white text-black bg-gradient-to-r from-blue-400 to-pink-400 md:bg-gradient-to-r md:from-purple-500 md:to-pink-400 font-extrabold text-lg md:text-xl px-5 py-2.5 text-center mr-3 md:mr-5 shadow-lg rounded-sm"
             >
               Shop PC
             </a>
             <a
-              href="https://greaternews.netlify.app"
+              href="#"
               class="dark:text-blue-700 dark:bg-white dark:border-2 hover:bg-blue-500 dark:border-blue-700 dark:hover:bg-blue-500 dark:hover:text-white text-black bg-gradient-to-r from-pink-400 to-blue-400 font-extrabold text-lg md:text-xl px-5 py-2.5 text-center mr-3 md:mr-5 shadow-lg rounded-sm"
             >
               Shop Mac

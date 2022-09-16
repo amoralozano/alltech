@@ -2,8 +2,8 @@ import React from "react";
 
 const EmailSec = () => {
   return (
-    <div className="bg-gray-900 w-full h-[300px] flex flex-col justify-center items-center mt-[50px] md:mt-0 mb-[50px]">
-      <div className=" w-[90%] md:w-[50%] h-[300px] bg-transparant mt-[20px] md:mt-[50px]">
+    <div className="bg-gray-900 w-full h-[350px] lg:h-[300px] flex flex-col justify-center items-center mt-[50px] md:mt-0 mb-[50px]">
+      <div className=" w-[90%] md:w-[50%] h-[300px] bg-transparant mt-[-20px] md:mt-[50px]">
         <h1 className=" text-[33px] md:text-[35px] text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-purple-600 font-bold">
           Get the latest drops and collection alerts
         </h1>
@@ -20,7 +20,7 @@ const EmailSec = () => {
             placeholder="Email Address..."
           />
           <a
-            href="https://greaternews.netlify.app"
+            href="#"
             class="dark:text-blue-700 dark:bg-white dark:border-2 hover:bg-blue-500 dark:border-blue-700 dark:hover:bg-blue-500 dark:hover:text-white text-black bg-gradient-to-r from-pink-400 via-purple-500 to-purple-600 font-bold text-lg md:text-xl ml-[15px] py-2.5 text-center md:mr-5 shadow-lg w-[150px] h-[50px] rounded-md"
           >
             Sign Up
